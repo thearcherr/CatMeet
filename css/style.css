@@ -1,0 +1,31 @@
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,0.7064950980392157) 0%, rgba(5,152,240,1) 56%, rgba(0,212,255,1) 100%);
+  background-size: 180% 180%;
+}
+
+.hero-main, #testimonial {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .hero-main {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-main {
+    margin-top: 8rem;
+  }
+}
+
+#testimonial img {
+  border-radius: 50%;
+}
+
+.card {
+  background-color: transparent !important;
+  color: white !important;
+  border: 2px solid white !important;
+}
